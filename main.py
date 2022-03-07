@@ -2,8 +2,12 @@ import discord
 import os
 from discord.ext import commands
 
-client = commands.Bot(command_prefix = '!')
+def read_token():
+  with open("token.txt", "r") as f:
+    lines = f.readlines()
+    return lines[0].strip()
 
+client = commands.Bot(command_prefix = '!')
 
 @client.command()
 async def load(ctx, extension):
@@ -20,4 +24,5 @@ for filename in os.listdir('./cogs'):
     client.load_extension(f'cogs.{filename[:-3]}')
 
 
-client.run("OTMxODU3NDc2NDAyNDE3NzE0.YeKh5w.59ovFsR5XQGW6yfjKKrrHFNuwkQ")
+token = read_token()
+client.run(token)
