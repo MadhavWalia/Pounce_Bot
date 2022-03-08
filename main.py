@@ -2,11 +2,6 @@ import discord
 import os
 from discord.ext import commands
 
-def read_token():
-  with open("token.txt", "r") as f:
-    lines = f.readlines()
-    return lines[0].strip()
-
 client = commands.Bot(command_prefix = '!')
 
 @client.command()
@@ -25,4 +20,4 @@ for filename in os.listdir('./cogs'):
 
 
 token = read_token()
-client.run(token)
+client.run('TOKEN')
