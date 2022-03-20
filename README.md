@@ -12,22 +12,22 @@ The bot has been made using discord.py and uses API integrations.
 
 ### Commands 
 ---
--make : Creates channels of QM, Scorekeeper and all teams and gives them required permissions
--deleteChannels : Deletes all team text channels
--deleteVoice  : Deletes all team voice channels
--clear{number of messages/all} : Deletes preceding messages in particular channel
--message {message text} : Sends announcements to all team channels 
--play {song link} : Joins the vocie channel and plays relevant song
--q : Shows the songs in queue
--skip : Skips the next song
--leave : Leaves the voice channel
--give{role name, member name} : Gives particular role to particular member
--removerole{role name, member name} : removes particular role from particular member 
--deleteAllRoles : Deletes all the team roles
--trivia : Fetches fact from subreddit r/todayilearned
--start{time duration} : Starts a timer for mentioned number of seconds
--create{number of questions, number of teams, email of QM} : Creates a google sheet for scorekeeping of required teams
--scores : fetches the scores of all the teams from Google Sheet
-- pounce{question number, answer} : Notes pounce of the given team provided they answer within the window
-- -open {time duration} _ Starts a timer of mentioned time duration
+-make : Creates channels of QM, Scorekeeper and all teams and gives them required permissions</br>
+-deleteChannels : Deletes all team text channels</br>
+-deleteVoice  : Deletes all team voice channels</br>
+-clear{number of messages/all} : Deletes preceding messages in particular channel</br>
+-message {message text} : Sends announcements to all team channels </br>
+-play {song link} : Joins the vocie channel and plays relevant song</br>
+-q : Shows the songs in queue</br>
+-skip : Skips the next song</br>
+-leave : Leaves the voice channel</br>
+-give{role name, member name} : Gives particular role to particular member</br>
+-removerole{role name, member name} : removes particular role from particular member </br>
+-deleteAllRoles : Deletes all the team roles</br>
+-trivia : Fetches fact from subreddit r/todayilearned</br>
+-start{time duration} : Starts a timer for mentioned number of seconds</br>
+-create{number of questions, number of teams, email of QM} : Creates a google sheet for scorekeeping of required teams</br>
+-scores : fetches the scores of all the teams from Google Sheet</br>
+- pounce{question number, answer} : Notes pounce of the given team provided they answer within the window</br>
+- -open {time duration} _ Starts a timer of mentioned time duration</br>
 ---
