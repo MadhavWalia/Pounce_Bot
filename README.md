@@ -1,6 +1,6 @@
 # Pounce_Bot
-To all the quizzers and quizmasters out there. This is the only bot you need to successfully conuduct an online quiz. 
-The features:
+To all the quizzers and quizmasters out there. This is the only bot you need to successfully conuduct an online quiz. </br>
+The features: </br>
 -Add/Delete Roles ( Creation of roles with special permissions like QM, Scorekeeper etc.</br>
 -Add/Delete Voice and Text Channels( Creation of team specific channels)</br>
 -Scoresheet using Google Sheets Integration</br>
