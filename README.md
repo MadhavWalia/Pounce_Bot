@@ -29,5 +29,6 @@ The bot has been made using discord.py and uses API integrations.
 -create{number of questions, number of teams, email of QM} : Creates a google sheet for scorekeeping of required teams</br>
 -scores : fetches the scores of all the teams from Google Sheet</br>
 -pounce{question number, answer} : Notes pounce of the given team provided they answer within the window</br>
--open {time duration} _ Starts a timer of mentioned time duration</br>
+-open{time duration}: Starts a timer of mentioned time duration </br>
+
 ---
