@@ -28,6 +28,6 @@ The bot has been made using discord.py and uses API integrations.
 -start{time duration} : Starts a timer for mentioned number of seconds</br>
 -create{number of questions, number of teams, email of QM} : Creates a google sheet for scorekeeping of required teams</br>
 -scores : fetches the scores of all the teams from Google Sheet</br>
-- pounce{question number, answer} : Notes pounce of the given team provided they answer within the window</br>
-- -open {time duration} _ Starts a timer of mentioned time duration</br>
+-pounce{question number, answer} : Notes pounce of the given team provided they answer within the window</br>
+-open {time duration} _ Starts a timer of mentioned time duration</br>
 ---
